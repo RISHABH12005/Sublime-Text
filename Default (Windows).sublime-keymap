@@ -1,0 +1,29 @@
+[
+  {
+    "keys": ["ctrl+r"],
+    "command": "terminus_open",
+    "args": {
+      "cwd": "${file_path:${folder}}",
+      "cmd": ["powershell.exe", "-NoExit", "-Command", "python '${file}'"],
+      "title": "Run"
+    }
+  },
+  {
+    "keys": ["ctrl+`"],
+    "command": "terminus_open",
+    "args": {
+      "cwd": "${file_path:${folder}}",
+      "cmd": ["powershell.exe"],
+      "title": "CMD",
+    }
+  },
+  {
+    "keys": ["ctrl+g"],
+    "command": "terminus_open",
+    "args": {
+      "cmd": ["C:/Program Files/Git/usr/bin/bash.exe", "--login", "-i"],
+      "cwd": "${file_path:${folder}}",
+      "title": "Git"
+    }
+  }
+]
