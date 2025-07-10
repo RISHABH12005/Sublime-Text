@@ -1,0 +1,13 @@
+Ctr+W - Close
+
+Ctr+B - Build
+
+Ctr+N - New Tab in sublime
+
+Ctr+Shft+N - New Tab
+
+Ctr+Tab - Shift Tab
+
+Ctr+Shft+P - Search
+
+Alt - Menu
